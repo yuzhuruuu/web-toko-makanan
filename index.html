@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YSR'S FOOD - Pemesanan Makanan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>YSR'S FOOD</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Pesanan</a></li>
+                <li><a href="#">Akun</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Pilih Makanan dan Minuman Anda</h2>
+            <p>Jelajahi menu terbaik kami dan pesan sekarang!</p>
+        </div>
+    </section>
+
+    <!-- Menu Makanan -->
+    <section class="menu">
+        <h2 class="menu-title">Menu Makanan</h2>
+        <div class="menu-list">
+            <div class="menu-item">
+                <img src="images/fried_chicken.jpg" alt="Fried Chicken">
+                <p>Fried Chicken</p>
+                <input type="number" id="fried-chicken" name="fried-chicken" min="0" value="0">
+                <p>Rp 8.000</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/spageti.jpg" alt="Spageti">
+                <p>Spageti</p>
+                <input type="number" id="spageti" name="spageti" min="0" value="0">
+                <p>Rp 25.000</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/french_fries.jpg" alt="French Fries">
+                <p>French Fries</p>
+                <input type="number" id="french-fries" name="french-fries" min="0" value="0">
+                <p>Rp 10.000</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/burger_queen.jpg" alt="Burger Queen">
+                <p>Burger Queen</p>
+                <input type="number" id="burger-queen" name="burger-queen" min="0" value="0">
+                <p>Rp 15.000</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/kwetiau.jpg" alt="Kwetiau">
+                <p>Kwetiau</p>
+                <input type="number" id="kwetiau" name="kwetiau" min="0" value="0">
+                <p>Rp 13.000</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/mie_hompipa.jpg" alt="Mie Hompipa">
+                <p>Mie Hompipa</p>
+                <input type="number" id="mie-hompipa" name="mie-hompipa" min="0" value="0">
+                <p>Rp 10.000</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/rice_bowl.jpg" alt="Rice Bowl">
+                <p>Rice Bowl</p>
+                <input type="number" id="rice-bowl" name="rice-bowl" min="0" value="0">
+                <p>Rp 12.000</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Minuman -->
+    <section class="menu">
+        <h2 class="menu-title">Menu Minuman</h2>
+        <div class="menu-list">
+            <div class="menu-item">
+                <img src="images/jasmin_tea.jpg" alt="Jasmin Tea">
+                <p>Jasmin Tea</p>
+                <input type="number" id="jasmin-tea" name="jasmin-tea" min="0" value="0">
+                <p>Rp 5.000</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/capucino.jpg" alt="Capucino">
+                <p>Capucino</p>
+                <input type="number" id="capucino" name="capucino" min="0" value="0">
+                <p>Rp 7.000</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/green_tea.jpg" alt="Green Tea">
+                <p>Green Tea</p>
+                <input type="number" id="green_tea" name="green_tea" min="0" value="0">
+                <p>Rp 10.000</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/taro.jpg" alt="Taro">
+                <p>Taro</p>
+                <input type="number" id="taro" name="taro" min="0" value="0">
+                <p>Rp 10.000</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/vanilla.jpg" alt="Vanilla">
+                <p>Vanilla</p>
+                <input type="number" id="vanilla" name="vanilla" min="0" value="0">
+                <p>Rp 10.000</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/matcha.jpg" alt="Matcha">
+                <p>Matcha</p>
+                <input type="number" id="matcha" name="matcha" min="0" value="0">
+                <p>Rp 10.000</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/lemonade.jpg" alt="Lemonade">
+                <p>Lemonade</p>
+                <input type="number" id="lemonade" name="lemonade" min="0" value="0">
+                <p>Rp 7.000</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/coklat.jpg" alt="Coklat">
+                <p>Coklat</p>
+                <input type="number" id="coklat" name="coklat" min="0" value="0">
+                <p>Rp 7.000</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pembayaran -->
+    <section class="payment">
+        <h3>Cara Pembayaran</h3>
+        <label>
+            <input type="radio" name="payment-method" value="transfer" checked> Transfer
+        </label>
+        <div id="transfer-methods">
+            <h4>Pilih Metode Transfer</h4>
+            <label><input type="radio" name="transfer-method" value="bank-mandiri"> Bank Mandiri</label><br>
+            <label><input type="radio" name="transfer-method" value="dana"> Dana</label><br>
+            <label><input type="radio" name="transfer-method" value="spay"> Spay</label><br>
+            <label><input type="radio" name="transfer-method" value="gopay"> Gopay</label><br>
+            <label><input type="radio" name="transfer-method" value="ovo"> OVO</label><br>
+            <label><input type="radio" name="transfer-method" value="qris"> QRIS</label><br>
+        </div>
+        <div id="qris-code" style="display: none; margin-top: 20px;">
+            <h4>Scan QRIS untuk Pembayaran</h4>
+            <img src="images/qris-code.png" alt="QRIS Code" style="max-width: 200px;">
+        </div>
+    </section>
+
+    <!-- Total Pembayaran -->
+    <section class="total">
+        <div id="total-price">Total Harga: Rp 0</div>
+        <button id="order-button">Pesan Sekarang</button>
+    </section>
+
+    <!-- Struk Pembelian -->
+    <div id="receipt" class="receipt">
+        <h3>Struk Pembelian</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama Barang</th>
+                    <th>Harga</th>
+                    <th>Jumlah</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="receipt-items">
+                <!-- Items will appear here -->
+            </tbody>
+        </table>
+        <div class="total-price" id="receipt-total-price">
+            Total Harga: Rp 0
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 YSR'S FOOD. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Link ke script.js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
