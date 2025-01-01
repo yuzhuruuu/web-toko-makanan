@@ -81,4 +81,5 @@ Penjelasan:
 
 ---
 
-Dengan **README.md** yang lengkap ini, orang yang mengunjungi repositori Anda akan memiliki pemahaman yang jelas tentang proyek Anda dan cara berkontribusi atau menggunakannya. Pastikan untuk mengganti placeholder seperti `username/ysrs-food` dan `email@example.com` dengan informasi yang sesuai dengan proyek dan kontak Anda.
+Berikut link untuk mengunjungi site secara live :
+https://yuzhuruuu.github.io/web-toko-makanan/
