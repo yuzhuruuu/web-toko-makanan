@@ -24,25 +24,45 @@ YSR'S FOOD adalah aplikasi pemesanan makanan dan minuman online yang memungkinka
    ```bash
    git clone https://github.com/username/ysrs-food.git
 ysrs-food/
+
 ├── index.html          # Halaman utama aplikasi
+
 ├── style.css           # File CSS untuk styling halaman
+
 ├── script.js           # File JavaScript untuk interaktivitas
+
 ├── images/             # Folder untuk gambar menu dan QRIS
+
 │   ├── fried_chicken.jpg
+
 │   ├── spageti.jpg
+
 │   ├── french_fries.jpg
+
 │   ├── burger_queen.jpg
+
 │   ├── kwetiau.jpg
+
 │   ├── mie_hompipa.jpg
+
 │   ├── rice_bowl.jpg
+
 │   ├── jasmin_tea.jpg
+
 │   ├── capucino.jpg
+
 │   ├── green_tea.jpg
+
 │   ├── taro.jpg
+
 │   ├── vanilla.jpg
+
 │   ├── matcha.jpg
+
 │   ├── lemonade.jpg
+
 │   ├── coklat.jpg
+
 │   └── qris-code.png  # Gambar QRIS untuk pembayaran QRIS
 
 
